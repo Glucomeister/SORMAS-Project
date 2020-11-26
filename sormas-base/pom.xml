@@ -403,7 +403,13 @@
 				<artifactId>swagger-jaxrs2</artifactId>
 				<version>${swagger.version}</version>
 			</dependency>
-			
+
+			<dependency>
+				<groupId>io.swagger.core.v3</groupId>
+				<artifactId>swagger-jaxrs2-servlet-initializer-v2</artifactId>
+				<version>${swagger.version}</version>
+			</dependency>
+
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
 				<artifactId>bcpkix-jdk15on</artifactId>
